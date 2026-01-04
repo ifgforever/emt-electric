@@ -105,10 +105,10 @@ img {
   text-decoration: none;
 }
 
-/* Logo styling - clean, no effects */
+/* Logo styling - prominent and clear */
 .logo-container {
-  width: 52px;
-  height: 52px;
+  width: 72px;
+  height: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,6 +119,8 @@ img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  /* Slight shadow for contrast on light backgrounds */
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
 }
 
 /* Fallback bolt - friendly style */
@@ -292,20 +294,21 @@ h1 .accent {
   border-radius: 0 0 4px 4px;
 }
 
-/* Watermark logo in card */
+/* Watermark logo in card - larger and more visible */
 .hero-badge {
   position: absolute;
-  top: 16px;
-  right: 16px;
-  width: 50px;
-  height: 50px;
-  opacity: 0.12;
+  top: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  opacity: 0.25;
 }
 
 .hero-badge img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
 }
 
 .hero-card h2 {
@@ -641,9 +644,10 @@ textarea {
 }
 
 .footer-logo {
-  width: 44px;
-  height: 44px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.12));
 }
 
 .footer-brand {
@@ -716,8 +720,8 @@ textarea {
   }
   
   .logo-container {
-    width: 46px;
-    height: 46px;
+    width: 64px;
+    height: 64px;
   }
   
   .hero {
@@ -741,8 +745,8 @@ textarea {
   }
   
   .hero-badge {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
   }
   
   .footer-grid {
@@ -797,7 +801,7 @@ textarea {
   }
   
   .logo-container {
-    width: 42px;
-    height: 42px;
+    width: 56px;
+    height: 56px;
   }
 }
