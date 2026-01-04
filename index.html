@@ -10,6 +10,7 @@
   <meta property="og:title" content="EMT Electric" />
   <meta property="og:description" content="Electrical panels, troubleshooting, lighting, fans, outlets, remodeling & permits — residential & commercial." />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="emtlogo.webp" />
 
   <link rel="stylesheet" href="styles.css" />
 
@@ -22,6 +23,7 @@
     "telephone": "+1-708-691-7386",
     "email": "electricpowerservice@yahoo.com",
     "url": "https://example.com",
+    "logo": "emtlogo.webp",
     "areaServed": "Chicago, IL metro",
     "makesOffer": [
       {"@type":"Offer","name":"Electrical panel repair & replacement"},
@@ -42,24 +44,18 @@
 <body>
   <header class="topbar">
     <div class="wrap topbar-inner">
-      <div class="brand">
-        <!-- LOGO: Replace the .bolt div with your logo image -->
-        <!-- Option A: Keep the bolt icon fallback -->
-        <div class="bolt" aria-hidden="true">⚡</div>
-        <!-- Option B: Use your logo image (uncomment and update src):
+      <a href="#home" class="brand">
         <div class="logo-container">
-          <img src="logo.png" alt="EMT Electric Logo" />
+          <img src="emtlogo.webp" alt="EMT Electric Logo" width="56" height="56" />
         </div>
-        -->
-        <div>
-          <div class="brand-name">EMT Electric</div>
-          <div class="brand-tag">Residential & Commercial Electrical Service</div>
-        </div>
-      </div>
+      </a>
 
       <div class="top-actions">
-        <a class="pill" href="tel:+17086917386">Call: (708) 691-7386</a>
-        <a class="pill ghost" href="mailto:electricpowerservice@yahoo.com">Email</a>
+        <a class="pill" href="tel:+17086917386">
+          <span class="pill-icon">📞</span>
+          (708) 691-7386
+        </a>
+        <a class="pill ghost" href="mailto:electricpowerservice@yahoo.com">Email Us</a>
       </div>
     </div>
   </header>
@@ -68,14 +64,16 @@
     <!-- HERO -->
     <section class="hero" id="home">
       <div class="wrap hero-grid">
-        <div>
+        <div class="hero-content">
           <h1>Fast, reliable electrical work <span class="accent">done right.</span></h1>
           <p class="lead">
             Panels • Troubleshooting • Lights • Fans • Outlets • Switches • Remodel wiring • Permits
           </p>
 
           <div class="cta-row">
-            <a class="btn" href="tel:+17086917386">Call Now</a>
+            <a class="btn" href="tel:+17086917386">
+              <span>📞</span> Call Now
+            </a>
             <a class="btn secondary" href="#quote">Request a Quote</a>
           </div>
 
@@ -87,11 +85,9 @@
         </div>
 
         <div class="hero-card">
-          <!-- LOGO WATERMARK: Uncomment to add logo watermark in hero card
           <div class="hero-badge">
-            <img src="logo.png" alt="" />
+            <img src="emtlogo.webp" alt="" width="80" height="80" />
           </div>
-          -->
           <h2>Contact</h2>
           <div class="contact-list">
             <div class="contact-row">
@@ -249,10 +245,13 @@
     <!-- FOOTER -->
     <footer class="footer" id="contact">
       <div class="wrap footer-grid">
-        <div>
-          <div class="footer-brand">⚡ EMT Electric</div>
-          <div class="tiny">Peter Podczerwinski</div>
-          <div class="tiny">Residential & Commercial</div>
+        <div class="footer-brand-area">
+          <img src="emtlogo.webp" alt="EMT Electric" class="footer-logo" width="48" height="48" />
+          <div>
+            <div class="footer-brand">EMT Electric</div>
+            <div class="tiny">Peter Podczerwinski</div>
+            <div class="tiny">Residential & Commercial</div>
+          </div>
         </div>
         <div class="footer-links">
           <a class="link" href="tel:+17086917386">Call: (708) 691-7386</a>
